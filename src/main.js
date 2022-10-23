@@ -3,13 +3,22 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+
+// bootstrap
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-// Make BootstrapVue available throughout your project
+
+// axios (api call)
+import axios from 'axios'
+
+// bootstrap
 Vue.use(BootstrapVue)
-// Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
+
+// axios
+Vue.use(axios)
+Vue.prototype.$axios = axios  // axios 전역변수로 사용하기 위해 설정
 
 Vue.config.productionTip = false
 
