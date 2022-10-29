@@ -160,11 +160,11 @@ export default {
 }
 </script>
 
-<style >
-<!--<style lang="scss">-->
-  .cards-container {
-    .va-card {
-      margin: 0;
-    }
-  }
+<style lang="scss">
+/*<style >*/
+.cards-container {
+  .va-card {
+   margin: 0;
+ }
+}
 </style>

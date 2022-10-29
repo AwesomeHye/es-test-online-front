@@ -75,6 +75,12 @@ module.exports = {
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       }
+      // ,
+      //       // // Sass 파일 로더 설정
+      //       // {
+      //       //   test: /\.s[ac]ss$/,
+      //       //   use: ['style-loader', 'css-loader', 'sass-loader']
+      //       // }
     ]
   },
   node: {

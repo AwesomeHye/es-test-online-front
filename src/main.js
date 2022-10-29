@@ -12,6 +12,10 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 // axios (api call)
 import axios from 'axios'
 
+// sass
+// import './sass/main.scss'
+// import 'normalize.css/normalize.css'
+
 // bootstrap
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)

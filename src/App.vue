@@ -21,9 +21,9 @@ export default {
 }
 </script>
 
-<style >
-/*<style lang="scss">*/
-/*  @import 'sass/main.scss';*/
+<!--<style >-->
+<style lang="scss" scoped>
+@import './sass/main.scss';
 
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
