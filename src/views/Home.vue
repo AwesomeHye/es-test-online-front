@@ -1,5 +1,13 @@
 <template>
     <div>
+      <div class="flex xs12 sm6 lg4 xl3">
+        <va-card
+          stripe="info"
+          :title="card-title"
+        >
+          "card text"
+        </va-card>
+      </div>
 
       <b-form-group label="Decompound mode" v-slot="{ ariaDescribedby }">
         <b-form-radio-group
@@ -152,6 +160,11 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style >
+<!--<style lang="scss">-->
+  .cards-container {
+    .va-card {
+      margin: 0;
+    }
+  }
 </style>
